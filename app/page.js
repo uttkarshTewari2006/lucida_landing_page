@@ -54,10 +54,10 @@ export default function Home() {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">What is Lucida?</h1>
             <p className="mb-5">
-              In this fast-paced world, it&apos;s easy to lose sight of
-              ourselves. Lucida is an innovative and therapeutic chatbot
-              designed to promote self-love and assist with various everyday
-              dilemmas, struggles, and difficult moments.
+              In this fast-paced world, it's easy to lose sight of ourselves.
+              Lucida is an innovative and therapeutic chatbot designed to
+              promote self-love and assist with various everyday dilemmas,
+              struggles, and difficult moments.
             </p>
             <button
               className="btn btn-primary"
@@ -82,7 +82,7 @@ export default function Home() {
               <a href="#" className="text-primary">
                 sign up
               </a>{" "}
-              for the waitlist to be the first to know when it&apos;s live!
+              for the waitlist to be the first to know when it's live!
             </p>
           </div>
         </div>
@@ -94,8 +94,8 @@ export default function Home() {
           <div className="collapse-content text-center">
             <p className="collapse-content text-center">
               Lucida is designed for anyone seeking a supportive companion in
-              their daily life. Whether you&apos;re facing tough times or just
-              need someone to talk to, Lucida is here to help.
+              their daily life. Whether you're facing tough times or just need
+              someone to talk to, Lucida is here to help.
             </p>
           </div>
         </div>
