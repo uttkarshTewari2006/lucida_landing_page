@@ -117,7 +117,7 @@ export default function Home() {
       {/* Feature Section */}
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <Image
+          <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmx8EFp2WQnwCfqop0DHpu1KwkQ9i2vr_YHw&s"
             className="max-w-sm rounded-lg shadow-2xl"
             alt="Lucida chatbot illustration"
