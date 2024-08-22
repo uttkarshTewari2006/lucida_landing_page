@@ -77,7 +77,7 @@ export default function Home() {
             How do I use this chatbot?
           </div>
           <div className="collapse-content text-center">
-            <p className="collapse-content text-center">
+            <p>
               This web app is currently in development, but be sure to{" "}
               <a href="#" className="text-primary">
                 sign up
@@ -92,7 +92,7 @@ export default function Home() {
             Who is this app made for?
           </div>
           <div className="collapse-content text-center">
-            <p className="collapse-content text-center">
+            <p>
               Lucida is designed for anyone seeking a supportive companion in
               their daily life. Whether you're facing tough times or just need
               someone to talk to, Lucida is here to help.
