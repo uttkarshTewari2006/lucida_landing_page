@@ -11,6 +11,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html data-theme="retro" lang="en">
+      <head>
+        <title>Lucida</title>
+        <description>
+          In this fast-paced world, it&apos;s easy to lose sight of ourselves.
+          Lucida is an innovative and therapeutic chatbot designed to promote
+          self-love and assist with various everyday dilemmas, struggles, and
+          difficult moments.
+        </description>
+      </head>
       <body className={inter.className + "text-black"}>{children}</body>
     </html>
   );
