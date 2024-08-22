@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { getFirestore } from "firebase/firestore";
 import { collection, addDoc } from "firebase/firestore";
 import app from "./firebase";
+import Image from "next/image";
 
 export default function Home() {
   const db = getFirestore(app);
@@ -53,10 +54,10 @@ export default function Home() {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">What is Lucida?</h1>
             <p className="mb-5">
-              In this fast-paced world, it's easy to lose sight of ourselves.
-              Lucida is an innovative and therapeutic chatbot designed to
-              promote self-love and assist with various everyday dilemmas,
-              struggles, and difficult moments.
+              In this fast-paced world, it&apos;s easy to lose sight of
+              ourselves. Lucida is an innovative and therapeutic chatbot
+              designed to promote self-love and assist with various everyday
+              dilemmas, struggles, and difficult moments.
             </p>
             <button
               className="btn btn-primary"
@@ -76,12 +77,12 @@ export default function Home() {
             How do I use this chatbot?
           </div>
           <div className="collapse-content text-center">
-            <p>
+            <p className="collapse-content text-center">
               This web app is currently in development, but be sure to{" "}
               <a href="#" className="text-primary">
                 sign up
               </a>{" "}
-              for the waitlist to be the first to know when it's live!
+              for the waitlist to be the first to know when it&apos;s live!
             </p>
           </div>
         </div>
@@ -91,10 +92,10 @@ export default function Home() {
             Who is this app made for?
           </div>
           <div className="collapse-content text-center">
-            <p>
+            <p className="collapse-content text-center">
               Lucida is designed for anyone seeking a supportive companion in
-              their daily life. Whether you're facing tough times or just need
-              someone to talk to, Lucida is here to help.
+              their daily life. Whether you&apos;re facing tough times or just
+              need someone to talk to, Lucida is here to help.
             </p>
           </div>
         </div>
@@ -116,7 +117,7 @@ export default function Home() {
       {/* Feature Section */}
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
+          <Image
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmx8EFp2WQnwCfqop0DHpu1KwkQ9i2vr_YHw&s"
             className="max-w-sm rounded-lg shadow-2xl"
             alt="Lucida chatbot illustration"
